@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /home/servicos.html
+Allow: /
+Allow: /home/index.html
+Allow: /home/contato.html
+Allow: /home/portfolio.html
+

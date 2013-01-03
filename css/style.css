@@ -1,0 +1,333 @@
+@charset "utf-8";
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	list-style-type: none;
+}
+
+.clear {clear:both;}
+
+body {
+	/*background-image:url(../img/bg_site.jpg);
+	background-repeat:no-repeat;
+	margin: 0 auto;*/
+	background-color:#1d1916;
+
+}
+#wrapper {
+	height: 1080px;
+	width: 1280px;
+	background-image:url(../img/bg_site.jpg);
+
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	
+	
+}
+.alinha {
+	height: auto;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#controle {
+	height: 100px;
+}
+
+/*------------------------------------------------------------------------*/
+/*                      Css Sprite Social Media                           */
+/*------------------------------------------------------------------------*/
+
+#social_media {
+	float: right;
+	height: auto;
+	width: 400px;
+	margin-top: 25px;
+	text-align: right;
+}
+
+#social_media ul #facebook a {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 140px;
+}
+#social_media ul #facebook a:hover {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+}
+#social_media ul #twitter a {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -160px 0px;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+#social_media ul #twitter a:hover {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -160px -70px;
+}
+
+#social_media ul #gmail a {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -105px 0px;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+#social_media ul #gmail a:hover {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -105px -70px;
+}
+#social_media ul #feeds a {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -50px 0px;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+#social_media ul #feeds a:hover {
+	background-image: url(../img/social_media_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -50px -70px;
+}
+
+/*------------------------------------------------------------------------*/
+/*                      Logo                                              */
+/*------------------------------------------------------------------------*/
+
+
+#logo h1{
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 85px;
+	width: 359px;
+	text-indent: -9000px;
+	margin-top: 20px;
+}
+
+#logo h1 a {
+	display:block;
+	height:100%
+}
+
+/*-------------------------------------------------------------------*/
+/*                             Nivo Slider                           */
+/*-------------------------------------------------------------------*/
+	
+#slider-nivo {
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+	
+#slider {
+    position:relative;
+    width:800px; /* Change this to your images width */
+    height:250px; /* Change this to your images height */
+	margin: 0px auto;
+    background:url(img/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+		position:absolute;
+		top:0px;
+		left:0px;
+		display:none;
+}
+
+#slider a {
+		border:0;
+		display:block;
+}
+
+
+#content {
+	margin-bottom: 15px;
+}
+
+.nav {
+	background-image:url(../img/bg_nav.jpg);
+	float: right;
+	height: 46px;
+	width: 450px;
+	margin: 20px 0px 20px 0px;
+}
+
+.nav ul {
+	padding-top: 12px;
+	
+}
+
+.nav ul li {
+	display: inline;
+	padding-left: 30px;
+}
+
+.nav ul li a {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #8e401a;
+}
+
+body#home li#active a {
+	color: #FFF;
+}
+body#contato li#active a {
+	color: #FFF;
+}
+
+
+#header {
+	background-image: url(../img/bg_header.jpg);
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+#sobre h2 {
+	font-family: Helvetica, sans-serif;
+	color: #977C63;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+#sobre p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #E57F37;
+	text-transform: none;
+	text-indent: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#footer p {
+	float: left;
+	margin-top: 35px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+#footer ul {
+	text-transform: uppercase;
+	float: right;
+	margin-top: 35px;
+}
+#footer ul li {
+	display: inline;
+	margin-left: 20px;
+	text-decoration: none;
+}
+#footer ul li a {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#footer {
+	background-image: url(../img/bg_header.jpg);
+	background-repeat:no-repeat;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*----------------------------------------------------------*/
+/*             Formulario de Contato                        */
+/*----------------------------------------------------------*/
+
+#content form {
+	font-size: 16px;
+	color: #E57F37;
+	width: 400px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	float: left;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+#content #direita {
+	float: right;
+	height: 361px;
+	width: 400px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#content #direita img {
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 80px;
+}
+
+
+
+#content form fieldset {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+#content form fieldset legend {
+	padding: 10px;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+#content form fieldset label {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#content form fieldset input, #content form fieldset select {
+	width: 300px;
+	height: 25px;
+}
+#content form fieldset textarea {
+	width: 375px;
+	margin-bottom: 15px;
+}
+#content form fieldset input#enviar {
+	width: 100px;
+	margin-bottom: 10px;
+}
+#content .formContato p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: #F90;
+	height: 350px;
+	width: 700px;
+}
+#content #sobre {
+	height: 250px;
+}
